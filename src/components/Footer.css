@@ -1,0 +1,229 @@
+.footer {
+    background: url(../assets/images/footer-map1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 165px 110px 35px;
+    align-items: flex-start;
+}
+
+.footer-container h4 {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: -0.78px;
+    line-height: 37px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.footer-container span,
+.footer-container a {
+    color: rgba(255, 255, 255, .6);
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    transition: all .3s ease;
+    text-decoration: none;
+    margin-bottom: 13px;
+}
+
+/* .contact-and-services{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+} */
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-logo {
+    width: 206px;
+}
+
+.footer-envelope::before {
+    content: "\f0e0";
+    font-family: Fontawesome;
+    font-size: 18px;
+    margin-right: 3px;
+    font-weight: 400;
+    color: #fd4a18;
+}
+
+.footer-map::before {
+    content: "\f041";
+    font-family: Fontawesome;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 3px;
+    color: #fd4a18;
+}
+
+.footer-phone::before {
+    content: "\f095";
+    font-family: Fontawesome;
+    font-weight: 400;
+    margin-right: 3px;
+    font-size: 18px;
+    color: #fd4a18;
+}
+
+.footer-envelope a:hover,
+.footer-phone a:hover {
+    color: #fd4a18;
+    text-decoration: underline;
+}
+
+.footer-container ul li {
+    color: rgba(255, 255, 255, .6);
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+    /* margin-left: 20px; */
+    transition: all .3s ease;
+    font-family: Roboto, sans-serif;
+}
+
+.footer-container ul {
+    padding-left: 17px;
+}
+
+.contact-and-services {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.company-and-support {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.services,
+.company,
+.support {
+    padding-left: 70px;
+    padding-right: 15px;
+}
+
+@media(max-width:1270px) {
+    .footer-container {
+        padding: 165px 55px 35px;
+    }
+}
+
+@media(max-width:1150px) {
+    .footer-container {
+        flex-direction: column;
+        padding: 165px 110px 35px;
+    }
+
+    .company-and-support,
+    .contact-and-services {
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .company {
+        padding-left: 0;
+    }
+}
+
+@media(max-width:900px) {
+
+    .contact-and-services,
+    .company-and-support {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .services,
+    .company,
+    .support {
+        padding-left: 0;
+    }
+}
+
+.footer-copyright {
+    padding: 30px 110px 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    /* display: block; */
+    /* border-top: 1px solid hsla(0,0%,100%,.1) */
+}
+
+.copyright-line::before {
+    content: "";
+    /* So that it will show */
+    display: block;
+    width: 86%;
+    /* Make sure position on these elements is relative (or something besides default) */
+    height: 5px;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    margin: 0px auto;
+    /* Center the line */
+
+}
+
+.copyright-title {
+    color: rgba(255, 255, 255, .6);
+    font-weight: 400;
+    line-height: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.social-link div {
+    font-weight: 400;
+    color: rgba(255, 255, 255, .6);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.social-link div:hover {
+    color: #fd4a18
+}
+
+@media (max-width:1300px) {
+    .social-link {
+        width: 15%;
+    }
+}
+
+@media (max-width:925px) {
+    .footer-copyright {
+        flex-direction: column;
+    }
+
+    .social-link {
+        width: 40%;
+    }
+}
+
+@media (max-width:588px) {
+    .copyright-title p{
+        text-align: center;
+    }
+}
+.footer {
+    background: url(../assets/images/footer-map1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

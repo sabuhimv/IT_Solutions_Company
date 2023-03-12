@@ -1,0 +1,24 @@
+.button-blue-light-container{
+    background-color: #43baff;
+    width: 170px;
+    border-radius: 5px;
+}
+.button-blue-light-container a{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 35px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    transition: all .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button-blue-light-container a:hover{
+   text-decoration: none;
+}

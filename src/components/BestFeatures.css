@@ -1,0 +1,121 @@
+.best-features-container{
+    background: url('../assets/images/block-bg-1.jpg');
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 220px 110px 350px;
+}
+.best-left{
+    width: 600px;
+    padding: 0 15px;
+}
+.best-left img{
+    width: 100%;
+}
+.best-block{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.best-block-text h4{
+    font-size: 22px;
+    line-height:26.4px;
+    font-weight: 700;
+    margin: 0;
+}
+.best-block-text p{
+    font-size: 16px;
+    line-height:30px;
+    font-weight: 400;
+    margin: 0;
+    font-family: Roboto,sans-serif;
+}
+.best-right{
+    padding: 0 15px 0 70px ;
+}
+
+.best-right span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    background-color: #7141b1;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 140px;
+    margin-bottom: 15px;
+}
+.best-right h2{
+    color: #fff;
+    padding-bottom: 30px;
+}
+.best-block-icon{
+    max-width:60px;
+    height: 60px;
+    /* margin-right: 30px; */
+    /* padding: 15px; */
+    background-color: #7141b1;
+    border-radius: 50%;
+    padding:15px;
+}
+
+.best-block-icon img{
+    width: 100%;
+    filter: invert(100%) sepia(14%) saturate(7494%) hue-rotate(172deg) brightness(113%) contrast(115%);
+    /* background-color: #7141b1;
+    border-radius: 50%;
+    padding: 10px; */
+}
+.best-block-icon img:hover{
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+}
+.best-block-text{
+    margin-left: 32px;
+}
+@media (max-width:1300px){
+    .best-features-container{
+        padding: 220px 55px 280px;
+    }
+}
+@media (max-width:1200px){
+    .best-features-container{
+        padding: 220px 25px 280px;
+    }
+}
+@media (max-width:1050px){
+    .best-features-container{
+        flex-direction: column;
+    }
+    .best-left{
+        padding-bottom: 50px;
+    }
+}
+@media (max-width:768px){
+    .best-right{
+        padding: 0 15px;
+    }
+    .best-left{
+        max-width: 500px;
+        height: auto;
+        padding: 0 0 50px;
+    }
+    .best-left img{
+        max-width: 100%;
+    }
+    .best-features-container{
+        padding: 220px 15px 280px;
+    }
+    .best-right h2{
+        font-size: 28px;
+    }
+}
+@media(max-width:600px){
+    .best-left{
+        max-width: 300px;
+    }
+}

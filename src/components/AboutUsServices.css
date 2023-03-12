@@ -1,0 +1,113 @@
+.about-us-services-container{
+    background: url('../assets/images/block-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+    padding: 250px 110px 100px;
+}
+
+.our-service-container{
+    padding: 100px 110px;
+    background-color: #fff;
+    margin: 0 60px;
+    box-shadow: 0 10px 30px 0 rgb(110 104 162 / 10%);
+    margin-top: -260px;
+}
+.about-service{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 40px 25px;
+
+    margin: 0 15px;
+    transition: all .3s ease;
+    /* background-color: rgba(253,74,24,.05); */
+}
+
+.about-service:hover{
+    transform: translateY(-15px);
+}
+.about-text a{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    transition: all .5s ease;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.about-text a{
+    margin: 0;
+}
+.about-text a:hover{
+    color: #000;
+}
+.our-service-container>h2{
+    text-transform: capitalize !important;
+    text-decoration: underline !important;
+    padding-bottom: 50px;
+}
+.about-icon{
+    width: 60px;
+    padding-bottom: 10px;
+}
+.about-icon img{
+    width: 100%;
+    filter: drop-shadow(2px 4px 6px black);
+    /* filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(346deg) brightness(105%) contrast(101%); */
+    filter: invert(43%) sepia(97%) saturate(651%) hue-rotate(154deg) brightness(96%) contrast(102%);
+
+
+
+}
+.about-service{
+    margin-top: 20px;
+}
+.about-service.product-component{
+    background-color: #2bc48a !important;
+}
+.about-service.target-component{
+    background-color: #fd4a18;
+}
+.about-service.cyper-component{
+    background-color: #ff7e00;
+}
+.about-service.booking-component{
+    background-color: #3c53ff;
+}
+.about-service.web-component{
+    background-color: #43baff;
+}
+
+/* 
+.about-icon img{
+    filter: invert(0%) sepia(76%) saturate(7472%) hue-rotate(4deg) brightness(85%) contrast(89%) !important;
+} */
+.about-text a,.about-text p{
+    color: #fff;
+}
+
+
+@media (max-width:1200px)
+{
+    .our-service-container{
+        padding: 100px 55px;
+    }
+    .our-service-container>h2{
+        font-size: 36px;
+    }
+}
+@media (max-width:768px)
+{
+    .our-service-container{
+        padding: 70px 25px;
+    }
+    .our-service-container>h2{
+        font-size: 28px;
+    }
+}

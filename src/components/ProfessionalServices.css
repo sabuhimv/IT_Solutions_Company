@@ -1,0 +1,31 @@
+.professional-services-container {
+    background: url('../assets/images/cta-bg-3.png');
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.professional-services-container h2 {
+    font-size: 65px;
+    line-height: 75px;
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ps-button-group {
+    display: flex;
+    width: 420px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width:991px) {
+    .professional-services-container h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}

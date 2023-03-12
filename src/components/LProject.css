@@ -1,0 +1,65 @@
+.latest-project-container{
+    padding: 0 15px;
+    position: relative;
+}
+.lp-text{
+    background-color: #fff;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 7px;
+    left:15px;
+    transition: all .5s ease;
+    width: 190px;
+
+}
+.lp-text:hover{
+    transform: translateY(-10px);
+}
+
+.lp-text a{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -.66;
+    transition: all .3s ease;
+    color: #000;
+}
+.lp-text p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FD4A18;
+    transition: all .3s ease;
+}
+.lp-text p:hover{
+    color: #000;
+}
+/* .lp-text .lp-button{
+    position: absolute;
+    padding: 5px 15px;
+    color: #fff;
+    background-color: #FD4A18;
+    top: -15px;
+    left: 102px;
+    border-radius: 10px;
+} */
+.lp-text .lp-button:hover{
+    color: #FD4A18;
+    background-color: #fff;
+}
+.lp-text .lp-button a{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    padding: 5px 15px;
+    color: #fff;
+    background-color: #FD4A18;
+    top: -15px;
+    left: 102px;
+    border-radius: 10px;
+}
+.lp-text .lp-button a:hover{
+    color: #FD4A18;
+    background-color: #fff;
+   box-shadow:0 16px 60px 0 rgb(0 0 0 / 56%);
+}

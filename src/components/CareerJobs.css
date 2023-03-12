@@ -1,0 +1,26 @@
+.career-jobs-container{
+    padding: 100px 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f8f9;
+}
+.career-jobs-head h2{
+    padding: 0 !important;
+}
+.career-jobs-head{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.career-jobs-body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+@media(max-width:1200px){
+    .career-jobs-container{
+        padding: 100px 55px;
+    }
+}

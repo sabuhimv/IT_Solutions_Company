@@ -1,0 +1,23 @@
+.cyber-digital-element-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 75px 15px 0;
+    padding: 65px 30px 25px;
+    position: relative;
+}
+.cd-icon{
+    width: 42px;
+    background-color: #FD4A18;
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+}
+.cd-icon img{
+    width: 100%;
+    filter: invert(82%) sepia(95%) saturate(1%) hue-rotate(328deg) brightness(106%) contrast(105%);
+}
+

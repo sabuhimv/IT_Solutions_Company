@@ -1,0 +1,93 @@
+.contact-area{
+    background: url('../assets/images/testimonial-bg-1.jpg');
+    padding: 120px 110px 130px;
+}
+.contact-area-head{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-area-body{
+    background-color: #fff;
+    padding: 60px 50px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-area-body input{
+    width: 30%;
+    height: 65px;
+    padding: 0 30px;
+    margin:0 15px 30px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #f7f8f9;
+}
+.contact-area-body-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-area-body-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.contact-area-body-button{
+    width: 30%;
+    padding: 0px 52px;
+    margin:0 15px 30px;
+}
+.contact-area-body-bottom select{
+    width: 30%;
+    height: 65px;
+    padding: 0 30px;
+    margin:0 15px 30px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #f7f8f9;
+    color: #757575;
+    cursor: pointer;
+}
+.contact-area-body-bottom select option{
+    height: 60px;
+    cursor: pointer;
+}
+@media (max-width:1200px){
+    .contact-area{
+        padding: 120px 55px 130px;
+    }
+}
+@media (max-width:1058px){
+    .contact-area-body{
+        padding: 60px 15px 30px;
+    }
+}
+@media (max-width:985px){
+    .contact-area-body-top{
+        flex-direction: column;
+    }
+    .contact-area-body-bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-area-body-bottom input{
+        width: 75%;
+    }
+    .contact-area-body-top input{
+        width: 75%;
+    }
+    .contact-area-body-bottom select{
+        width: 83%;
+        margin-bottom:70px;
+    }
+}
+@media (max-width:985px){
+    .contact-area-body-button{
+        width: 80%;
+    }
+}

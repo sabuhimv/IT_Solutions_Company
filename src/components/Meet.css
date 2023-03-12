@@ -1,0 +1,61 @@
+.meet-container{
+    background: url(../assets/images/cta-bg-1-black.png);
+    background-size: cover;
+    height: 240px;
+    margin-top: 30px;
+    padding: 20px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #616161;
+}
+.meet-left h3{
+    font-size: 35px;
+    line-height: 50px;
+    color: #fff;
+}
+.meet-left{
+    max-width: 870px;
+    padding: 0 15px;
+}
+@media (max-width:1300px){
+    .meet-container{
+        padding: 0 55px;
+    }
+}
+@media (max-width:1200px){
+    .meet-container{
+        flex-direction: column;
+        padding-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+    .meet-container h3{
+        padding-bottom: 15px;
+    }
+    
+}
+@media (max-width:855px){
+    .meet-container{
+        padding-bottom: 60px;
+        padding-top: 40px;
+    }
+}
+@media (max-width:690px){
+    /* .meet-container{
+        padding-bottom: 90px;
+    } */
+    .meet-left h3{
+        font-size: 25px;
+    }
+}
+@media (max-width:510px){
+    .meet-container{
+        padding-bottom: 80px;
+        padding-top: 60px;
+    }
+}

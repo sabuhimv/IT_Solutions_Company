@@ -1,0 +1,33 @@
+.solutions-container{
+    background-color: #F8F8F8;
+    padding: 50px 110px;
+}
+.solutions-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.solutions-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.solutions-head span{
+    display: inline-block;
+    margin-bottom: 13px;
+    font-size: 20px;
+    color:#FD4A18;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.solutions-container{
+    padding: 50px 55px;
+}
+
+@media (max-width:1250px){
+    .solutions-body{
+        flex-direction: column;
+    }
+}

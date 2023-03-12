@@ -1,0 +1,42 @@
+.count-element-counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center !important;
+    padding: 0 15px;
+}
+.ce-image{
+    width: 55px;
+    background-color: #fff;
+    padding: 21px;
+    border-radius: 50%;
+    color: #FD4A18;
+    margin-bottom: 21px;
+}
+.ce-image img{
+    width: 100%;
+}
+.count-element-counter p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto,sans-serif;
+    margin-top: 8px;
+}
+.count-element-counter h2{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -1.26px;
+    text-align: center;
+}
+.count-element-counter h2 span{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -1.26px;
+    text-align: center;
+}

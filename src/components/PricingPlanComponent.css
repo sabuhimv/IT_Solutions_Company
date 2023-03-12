@@ -1,0 +1,92 @@
+.pricing-plan-component-container{
+    border: 1px solid rgba(27,29,33,.102);
+    padding: 45px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    margin:0 15px ;
+    transition: all .5s ease;
+}
+.pricing-plan-component-container:hover{
+    transform: scale(1.02) translateY(-5px);
+}
+.pricing-plan-component-container h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.pricing-plan-component-container h3 span{
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 3px;
+}
+.pricing-plan-component-container h3 .sm-text{
+    color: #616161;
+    font-size: 16px;
+}
+.pp-title{
+    text-decoration: underline !important;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -.72px !important;
+    font-size: 24px !important;
+    margin-top: 0;
+}
+.pricing-plan-component-container .pp-discount{
+    color: #616161 !important;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    font-family: Roboto,sans-serif;
+}
+
+
+.pricing-plan-component-container ul{
+    list-style: none;
+    padding: 0;
+}
+.pricing-plan-component-container ul li{
+    color: rgb(97,97,97);
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.pricing-plan-component-container ul li:before{
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome; 
+    display: inline-block;
+    color: rgb(97,97,97);
+    font-size: 14px;
+    font-weight:300;
+    margin-right: 10px;
+}
+.pricing-plan-component-container ul .uncheck{
+    color: rgba(97,97,97,.5);
+}
+.pricing-plan-component-container ul .uncheck:before{
+    color: rgba(97,97,97,.5);
+}
+@media(max-width:1411px){
+    .pricing-plan-component-container{
+        width: 25%;
+    }
+}
+@media(max-width:1300px){
+    .pricing-plan-component-container{
+        width: 40%;
+    }
+}
+@media(max-width:1000px){
+    .pricing-plan-component-container{
+        width: 60%;
+    }
+}
+@media(max-width:1000px){
+    .pricing-plan-component-container{
+        width: 100%;
+    }
+}

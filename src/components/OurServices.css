@@ -1,0 +1,93 @@
+.our-service-container{
+    padding: 100px 110px;
+    background-color: #fff;
+    margin: 0 60px;
+    box-shadow: 0 10px 30px 0 rgb(110 104 162 / 10%);
+    margin-top: -260px;
+}
+.service-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 35px 10px;
+    margin: 0 5px;
+    transition: all .3s ease;
+    /* background-color: rgba(253,74,24,.05); */
+}
+.service-component:hover{
+    transform: translateY(-15px) scale(1.02);
+}
+.sc-text a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .5s ease;
+}
+.sc-text a{
+    margin: 0;
+}
+.sc-text a:hover{
+    color: #FD4A18;
+}
+.our-service-container>h2{
+    text-transform: capitalize !important;
+    text-decoration: underline !important;
+    padding-bottom: 50px;
+}
+.sc-icon{
+    width: 60px;
+    padding-bottom: 10px;
+}
+.sc-icon img{
+    width: 100%;
+}
+.product-component{
+    background-color: #FFF6F3 !important;
+}
+.product-icon{
+    filter: invert(29%) sepia(95%) saturate(1542%) hue-rotate(351deg) brightness(106%) contrast(99%);
+}
+.target-component{
+    background-color: #FFF5F6;
+}
+.target-icon{
+    filter: invert(44%) sepia(27%) saturate(3876%) hue-rotate(327deg) brightness(110%) contrast(99%);
+}
+.cyper-component{
+    background-color: rgba(67,186,255,.07);
+}
+.cyper-icon{
+    filter: invert(76%) sepia(54%) saturate(4091%) hue-rotate(175deg) brightness(98%) contrast(108%);
+}
+.booking-component{
+    background-color: #F0FBF7;
+}
+.booking-icon{
+    filter: invert(65%) sepia(21%) saturate(1348%) hue-rotate(106deg) brightness(95%) contrast(85%);
+}
+.web-component{
+    background-color: rgba(96,0,255,.05);
+}
+.web-icon{
+    filter: invert(9%) sepia(100%) saturate(6256%) hue-rotate(265deg) brightness(103%) contrast(124%);
+}
+@media (max-width:1200px)
+{
+    .our-service-container{
+        padding: 100px 55px;
+    }
+    .our-service-container>h2{
+        font-size: 36px;
+    }
+}
+@media (max-width:768px)
+{
+    .our-service-container{
+        padding: 70px 25px;
+    }
+    .our-service-container>h2{
+        font-size: 28px;
+    }
+}

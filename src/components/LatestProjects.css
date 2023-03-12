@@ -1,0 +1,20 @@
+.latest-projects-container{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 10px 105px;
+    background-color: #191919;
+}
+.latest-projects-head{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.latest-projects-head span{
+    color: #fff !important;
+}
+.latest-projects-head h2{
+    color: #fff !important;
+}

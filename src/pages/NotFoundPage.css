@@ -1,0 +1,30 @@
+.opps{
+    padding: 150px 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opps h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+.opps a{
+    padding: 15px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    background-color: #FD4A18;
+    color: #fff;
+    transition: all .5s ease;
+}
+.opps a:hover{
+    color: #FD4A18;
+    background-color: #fff;
+    text-decoration: none;
+    border: 1px solid #FD4A18;
+}

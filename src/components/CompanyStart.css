@@ -1,0 +1,50 @@
+.company-start-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px 100px 100px;
+
+    background: url("../assets/images/hero-slider-5.png");
+    background-attachment: fixed;
+}
+
+.company-start-span {
+    width: 250px !important;
+}
+
+.company-h1 {
+    font-size: 130px;
+    line-height: 120px;
+    color: #fff;
+    margin: 0 0 50px 0;
+    text-align: center;
+    line-height: 120px;
+}
+
+.company-start-button {
+    display: flex;
+    justify-content: space-between;
+    width: 398px;
+}
+
+@media(max-width:1200px) {
+    .company-h1 {
+        font-size: 65px;
+        margin-bottom: 30px;
+        line-height: 75px;
+    }
+    .company-h1 {
+        font-size: 58px;
+    }
+}
+
+@media(max-width:768px) {
+    .agency-start-container {
+        padding: 160px 25px;
+    }
+
+    .company-h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}

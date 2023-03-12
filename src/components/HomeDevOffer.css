@@ -1,0 +1,30 @@
+.home-dev-offer-container {
+    padding: 100px 110px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.home-dev-offer-head {
+    text-align: center;
+}
+
+.home-dev-offer-body {
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+@media(max-width:1345px) {
+    .home-dev-offer-container {
+        padding: 100px 55px;
+    }
+}
+
+@media(max-width:768px) {
+    .home-dev-offer-head h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

@@ -1,0 +1,75 @@
+.career-job-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    margin: 0 15px 30px;
+    width: 19%;
+}
+.career-job-title{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -.72px;
+    text-align: center;
+    transition: all .3s ease;
+    color: #000;
+}
+.career-job-title:hover{
+    color: #5D3891;
+}
+
+.career-job-container span::before{
+    content: "\f02c";
+    font-family: Fontawesome;
+    margin-right: 10px;
+    color: #5D3891;
+
+}
+.career-job-container span{
+    font-weight: 500 !important;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: Roboto,sans-serif !important;
+    text-align: center;
+    display: inline-block;
+    color: #5D3891;
+}
+.career-job-button{
+    padding: 10px 25px;
+    line-height: 20px;
+    border-radius: 5px;
+    color: #fff !important;
+    background-color: #5D3891;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+.career-job-button:hover{
+    background-color: #FD4A18;
+}
+@media(max-width:1200px){
+    .career-job-container{
+        width: 30%;
+    }
+}
+@media(max-width:1000px){
+    .career-job-container{
+        width: 40%;
+    }
+}
+@media(max-width:825px){
+    .career-job-container{
+        width: 70%;
+    }
+}

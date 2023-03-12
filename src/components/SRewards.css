@@ -1,0 +1,128 @@
+.special-rewards-container{
+    background:url(../assets/images/newsletter-bg-1.jpg);
+    width: 770px;
+    height: 104px;
+    padding: 40px 80px 25px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+    top: 88px;
+}
+.srewards-left{
+    display: flex;
+    align-items: center;
+}
+.sr-left-icon{
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 90px;
+    color: #fff;
+}
+.srewards-left h2{
+    color: #fff;
+    text-align: left;
+    padding-left: 20px;
+}
+.srewards-right input{
+    padding: 0 30px 0 50px;
+    width: 357px;
+    height: 75px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Rajdhani, sans-serif;
+    outline: none;
+}
+.srewards-right form{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.sr-right-icon{
+    color: #FD4A18;
+    position: absolute;
+    top: 67px;
+    left: 429px;
+    font-size: 23px;
+}
+.sr-right-btn{
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline;
+    padding: 12px 35px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    position: absolute;
+    right: 20px;
+}
+@media (max-width:1030px){
+    .special-rewards-container{
+        flex-direction: column;
+        width: 550px;
+        height: 180px;
+    }
+    .sr-right-btn{
+        right:120px;
+    }
+    .sr-right-icon{
+        left: 97px;
+        top: 174px;
+    }
+}
+@media(max-width:800px){
+    .special-rewards-container{
+        max-width: 450px;
+        height: 234px;
+        padding: 40px 80px 25px;
+    }
+    .sr-right-icon{
+        top: 221px;
+    }
+    .sr-right-btn{
+        right:28px;
+    }
+}
+@media(max-width:660px){
+    .srewards-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .srewards-left h2 br{
+        display: none;
+    }
+    .special-rewards-container{
+        width: 300px;
+        height: 250px;
+        padding: 40px 30px 85px;
+    }
+    .sr-left-icon{
+        font-size: 32px;
+    }
+    .srewards-left h2{
+        text-align: center;
+    }
+    .srewards-left h2 br{
+        display: none;
+    }
+    .srewards-right form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .sr-right-icon{
+        display: none;
+    }
+    .sr-right-btn{
+        margin-top: 10px;
+        position: static;
+    }
+    .srewards-right input{
+        width: 150px;
+    }
+
+}

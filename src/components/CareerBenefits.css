@@ -1,0 +1,118 @@
+.career-benefits-container{
+    padding: 100px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.careet-benefits-image img{
+    padding: 10px;
+}
+.careet-benefits-image{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.careet-benefits-image img:nth-child(1){
+    border-radius: 0 117.5px 117.5px 117.5px;
+}
+.careet-benefits-image img:nth-child(4){
+    border-radius: 97.5px 97.5px 0 97.5px;
+}
+.career-benefits-text{
+    padding-right: 90px;
+    width: 85%;
+}
+.career-benefits-text h4{
+    margin-bottom:10px ;
+    font-size: 22px;
+    line-height: 26px;
+}
+.career-benefit{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+.career-benefit-icon{
+    min-width: 35px;
+    max-width: 40px;
+    background-color: #5D3891;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 12px;
+}
+.career-benefit-icon::after{
+    position: absolute;
+    bottom: 7px;
+    left: 31px;
+    content: "";
+    width: 3px;
+    height: 35px;
+    background-color: #FD4A18;
+}
+.career-support-icon::after{
+    display: none;
+}
+.career-benefit-icon img{
+    width: 100%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(192deg) brightness(105%) contrast(103%);
+}
+.career-benefit-orange-icon{
+    background-color: #FD4A18;
+}
+@media(max-width:1335px){
+    /* .career-benefits-container{
+        padding: 100px 55px;
+    } */
+    .careet-benefits-image img{
+        width: 35%;
+    }
+}
+@media(max-width:1200px){
+    .career-benefits-container{
+        padding: 100px 55px;
+    }
+    .career-benefits-text {
+        padding-right: 60px;
+    }
+}
+@media (max-width: 1030px)
+{
+    .career-benefits-text {
+    padding-right: 35px;
+    }
+}
+@media (max-width: 1010px)
+{
+    .career-benefits-container{
+        flex-direction: column;
+    }
+    .career-benefits-text {
+        padding-right: 0;
+    }
+    .career-benefit-icon::after {
+        bottom: 19px;
+        left: 31px;
+        height: 40px;
+    }
+}
+@media (max-width: 768px)
+{
+    .career-benefits-container{
+        padding: 100px 25px;
+        flex-direction: column;
+    }
+    
+}
+@media (max-width: 570px)
+{
+    .career-benefits-container{
+        padding: 100px 0;
+        flex-direction: column;
+    }
+    
+}

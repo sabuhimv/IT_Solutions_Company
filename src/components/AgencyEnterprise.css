@@ -1,0 +1,28 @@
+.agency-enterprise-container{
+    padding: 100px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.agency-enterprise-left{
+    margin-right: 60px;
+}
+.agency-enterprise-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+@media(max-width:1224px){
+    .agency-enterprise-container{
+        padding-right: 55px;
+        padding-left: 55px;
+    }
+    .agency-enterprise-left{
+        margin-right: 30px;
+    }
+}
+@media(max-width:924px){
+    .agency-enterprise-container{
+        flex-direction: column;
+    }
+}

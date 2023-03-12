@@ -1,0 +1,25 @@
+.blue-button{
+    background-color: #06f;
+    color: #fff;
+    font-family: Rajdhani,sans-serif;
+    padding: 8px 28px;
+    border-radius:5px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+    cursor: pointer;
+    width: 120px;
+    /* max-width: 100px; */
+    height: 30px;
+    border: 2px solid rgba(25, 25, 25, .1);
+    text-decoration: underline;
+}
+.blue-button:hover{
+    text-decoration: none;
+    background-color: #F9582D; 
+    color: #fff;
+}

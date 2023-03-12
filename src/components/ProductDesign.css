@@ -1,0 +1,16 @@
+.product-design-container{
+    padding: 120px 110px;
+}
+@media(max-width:955px){
+    .product-design-container{
+        margin: 0 auto;
+        padding: 120px 210px;
+    }
+}
+@media(max-width:806px){
+    .product-design-container{
+        margin: 0 auto;
+        padding: 120px 55px;
+        text-align: center;
+    }
+}

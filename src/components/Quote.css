@@ -1,0 +1,39 @@
+.quote-container{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/images/quote-bg-1.jpg);
+    padding: 40px 130px;
+    /* margin: 0 35px; */
+}
+.quote-left{
+    margin-right: 40px;
+}
+.quote-left img{
+    border-radius: 50%;
+}
+.quote-right h3{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.72px;
+    line-height: 32px;
+    text-decoration: underline;
+}
+@media(max-width:1200px){
+    .quote-container{
+        padding: 40px 65px;
+    }
+    .quote-right h3 br{
+        display: none;
+    }
+}
+@media(max-width:768px){
+    .quote-container{
+        padding: 40px 15px;
+    }
+    .quote-right h3{
+        font-size: 20px;
+        line-height: 22px;
+    }
+}

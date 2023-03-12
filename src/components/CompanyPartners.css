@@ -1,0 +1,15 @@
+.company-partners-container{
+    background: url('../assets/images/newsletter-bg-1.jpg');
+    padding: 50px 20px;
+    margin: 0 150px;
+}
+@media(max-width:1200px){
+    .company-partners-container{
+        margin: 0 75px;
+    }
+}
+@media(max-width:550px){
+    .company-partners-container{
+        text-align: center;
+    }
+}

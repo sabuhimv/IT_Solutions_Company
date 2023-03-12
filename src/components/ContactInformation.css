@@ -1,0 +1,125 @@
+.contact-information-container {
+    padding: 100px 110px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info-left {
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 120%; */
+}
+
+.contact-info-location {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-connect {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-element {
+    display: flex;
+    align-items: center;
+
+    padding: 80px 90px 10px;
+    /* width: 276px; */
+    /* width: 29%; */
+    width: 65%;
+}
+
+.contact-info-element-icon {
+    font-size: 60px;
+    margin-right: 25px;
+    color: #FD4A18;
+}
+
+.contact-info-right {
+    background-color: #141d38;
+    padding: 40px 50px 20px;
+    border-left: 7px solid #faa200;
+    color: #fff;
+    width: 30%;
+    /* width: 285px; */
+}
+
+.contact-info-right p {
+    color: #fff;
+}
+
+.st-close {
+    color: #ffb400;
+}
+
+.info-hotlines span {
+    display: inline-block;
+    font-weight: 700;
+    color: #000;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Roboto, sans-serif !important;
+    margin: 0;
+}
+.info-hotlines a{
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    font-family: Roboto, sans-serif !important;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+@media(max-width:1250px){
+    .contact-information-container {
+        padding: 100px 55px;
+    }
+}
+@media(max-width:1200px){
+    .contact-info-element {
+        padding: 80px 40px 10px;
+        width: 70%;
+    }
+}
+@media(max-width:1150px){
+    .contact-info-element {
+        padding: 80px 40px 10px;
+        width: 80%;
+    }
+}
+@media(max-width:1062px){
+    .contact-information-container {
+        flex-direction: column;
+        padding: 100px 110px;
+
+    }
+    .contact-info-right {
+        width: 87%;
+    }
+    .contact-info-left{
+        border-left: 7px solid transparent;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contact-info-element {
+        width: 60%;
+    }
+    .contact-info-left {
+        background-color: #fff;
+    }
+}
+@media(max-width:768px){
+    .contact-information-container {
+        flex-direction: column;
+        padding: 100px 25px;
+        padding-left: 0;
+    }
+    .contact-info-element {
+        width: 65%;
+    }
+}

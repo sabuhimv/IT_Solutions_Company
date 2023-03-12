@@ -1,0 +1,109 @@
+.help-support-container{
+    padding: 250px 110px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.help-support-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(90deg,#ff3a34,#ff6f33 99%);
+}
+.help-support-span{
+    font-weight: 700;
+    text-decoration: underline;
+    color: #000;
+    font-size: 16px;
+}
+    
+.help-support-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 15px;
+}
+.help-support-button-group{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+}
+.help-support-button-group a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.help-support-button-group a span{
+    padding-left: 10px;
+}
+.help-support-image{
+    width: 820px;
+    padding: 0 15px;
+}
+.help-support-image img{
+    width: 100%;
+}
+.help-support{
+    position: relative;
+}
+.help-shape-icon-1{
+    position: absolute;
+    top: 44px;
+    left: 53px;
+}
+.help-shape-icon-2{
+    position: absolute;
+    bottom: 11px;
+    left: 53px;
+}
+@media(max-width:1250px){
+    .help-support-container{
+        padding: 100px 55px;
+    }
+    .help-support-text h1{
+        font-size: 65px;
+    }
+}
+@media(max-width:1111px){
+    .help-support-container{
+        padding: 100px 15px;
+    }
+    
+}
+@media(max-width:935px){
+    .help-support-container{
+        padding: 100px 55px;
+    }
+    .help-support-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .help-support-image{
+        max-width: 600px;
+        height: auto;
+        padding-top: 30px;
+    }
+}
+@media(max-width:768px){
+    .help-support-text h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .help-support-image{
+        max-width: 500px;
+    }
+    .help-support-container{
+        padding: 100px 15px;
+    }
+}
+@media(max-width:580px){
+    .help-support-image{
+        max-width: 400px;
+    }
+   
+}

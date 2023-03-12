@@ -1,0 +1,57 @@
+.agency-start-container{
+    background: url('../assets/images/agency-bg.png');
+    padding: 250px 150px 120px;
+    background-attachment: fixed;
+
+
+    display: flex;
+    flex-direction: column;
+}
+.agency-start-container span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 13px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.agency-start-container h1{
+    margin: 0 0 15px 0;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -2.25;
+    color: #fff;
+}
+.agency-start-container p{
+    margin: 0 0 33px 0 ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+}
+.agency-start-button{
+   display: flex;
+   justify-content: space-between;
+   width: 398px;
+}
+@media(max-width:1200px){
+    .agency-start-container{
+        padding: 160px 75px;
+    }
+    .agency-start-container h1{
+        font-size: 58px;
+    }
+}
+
+@media(max-width:768px){
+    .agency-start-container{
+        padding: 160px 25px;
+    }
+    .agency-start-container h1{
+        font-size: 58px;
+    }
+}

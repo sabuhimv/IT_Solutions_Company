@@ -1,0 +1,98 @@
+.home-dev-offer-element-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 15px;
+    padding: 10px 20px;
+
+    width:18%;
+}
+.hd-offer-icon{
+    font-size: 45px;
+    background-color: #fd4a18;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hd-offer-icon:hover{
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+}
+.home-dev-offer-element-container a{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -.72px;
+    transition: all .5s ease;
+    color: #000;
+    text-decoration: none;
+
+
+    position: relative;
+    display: inline-block;
+    padding-left: 35px;
+    margin-bottom: 15px;
+
+    width: 171px;
+}
+.home-dev-offer-element-container a::before{
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-color: #43baff;
+    top: 0px;
+    left: 0px;
+}
+.home-dev-offer-element-container a::after{
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    bottom: 6px;
+    left: 8px;
+    background-color: #00dcae;
+}
+.home-dev-offer-element-container ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.home-dev-offer-element-container ul li {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:  0 0 15px 0;
+    font-family: Roboto,sans-serif;
+    width: 200px;
+}
+.home-dev-offer-element-container ul li:before{
+    content: "\f105";
+    font-family: Fontawesome;
+    font-weight: 400;
+    margin-right: 7px;
+}
+@media(max-width:1125px){
+    .home-dev-offer-element-container{
+        width:25%;
+    }
+}
+@media(max-width:965px){
+    .home-dev-offer-element-container{
+        width:30%;
+    }
+}
+@media(max-width:768px){
+    .home-dev-offer-element-container{
+        width:70%;
+    }
+}

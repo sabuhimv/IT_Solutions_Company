@@ -1,0 +1,31 @@
+.about-us-partners-container{
+    padding: 100px 110px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.about-team-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.about-team-members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media(max-width:1200px){
+    .about-us-partners-container{
+        padding: 100px 55px;
+    }
+}
+@media(max-width:970px){
+    .about-team-text{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

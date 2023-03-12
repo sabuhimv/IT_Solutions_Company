@@ -1,0 +1,40 @@
+.orange-button{
+    /* background-color: #FD4A18;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius:5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+    cursor: pointer;
+    height: 30px; */
+    /* max-width: 165px; */
+    /* width: 142px; */
+    background-color: #FD4A18;
+    color: #fff;
+    font-family: Rajdhani,sans-serif;
+    padding: 12px 25px;
+    border-radius:5px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+    cursor: pointer;
+    width: 99px;
+    /* max-width: 100px; */
+    height: 30px;
+    border: 2px solid rgba(25, 25, 25, .1);
+    text-decoration: underline;
+    width: 142px;
+    text-align: center;
+}
+.orange-button:hover{
+    text-decoration: none;
+    background-color: #000000;
+}

@@ -1,0 +1,51 @@
+.case-container{
+    position: relative;
+}
+.case-container .case-img img{
+    transition: all .5s ease;
+}
+.case-container .case-img img:hover{
+    transform: scale(1.03);
+}
+.project_title{
+    display: inline-block;
+    font-size: 22px;
+    text-decoration: underline;
+    color: #000;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 15px;
+}
+.project_title:hover{
+    color: #FD4A18;
+}
+.case-container p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family: Roboto , sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+.project_body{
+    color: rgb(97, 97, 97);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.project_details{
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    font-weight: 700;
+}
+.project_button{
+    display: inline-block;
+    z-index: 999;
+    padding-top: -20px;
+}
+@media(max-width:806px){
+    .case-button{
+        display: flex;
+        justify-content: center;
+    }
+}

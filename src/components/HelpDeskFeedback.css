@@ -1,0 +1,82 @@
+/* .help-desk-feedback-container{
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+} */
+/* .help-desk-feedback-right{
+    background: url('../assets/images/testimonial-bg-1.jpg');
+    padding-left: 100px;
+    padding-right: 225px;
+}
+.help-desk-feedback-left{
+    width: 650px;
+} */
+/* .help-desk-feedback-left img{
+    width: 100%;
+} */
+/* .help-desk-feedback-right{
+    padding: 80px 0 80px 100px;
+}
+.help-feedback-swiper{
+    background-color: #fff;
+    padding: 30px;
+    width: 470px;
+    height: 320px;
+}
+.help-feedback-swiper p{
+    font-size: 22px;
+    line-height: 38px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    color: #151515;
+    border-bottom: 1px solid rgba(27,27,32,.07);
+    font-weight: 400;
+    font-family: Roboto, sans-serif !important;
+}
+.help-feedback-swiper-footer{
+    display: flex;
+    padding-top: 20px;
+}
+.help-feedback-swiper-footer h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+.help-swiper-author{
+    padding-right: 20px;
+}
+.help-feedback-swiper-footer p{
+    color: #616161;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    border: none;
+}
+.help-desk-feedback-right h2{
+    padding-bottom: 40px;
+} */
+
+.help-desk-feedback-container{
+    display: flex;
+    padding: 0 0 0 0;
+    background: url('../assets/images/testimonial-bg-1.jpg');
+
+}
+.help-desk-feedback-left{
+    width: 698px;
+    padding-right: 50px;
+}
+.help-desk-feedback-left img{
+    width: 100%;
+}
+.help-desk-feedback-right{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.swiper-help-feedback{
+    width: 30%;
+}

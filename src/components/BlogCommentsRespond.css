@@ -1,0 +1,13 @@
+.blog-comments-respond-container{
+    padding: 30px 110px;
+}
+@media(max-width:1200px){
+    .blog-comments-respond-container{
+        padding: 30px 55px;
+    }
+}
+@media(max-width:768px){
+    .blog-comments-respond-container{
+        padding: 30px 25px;
+    }
+}

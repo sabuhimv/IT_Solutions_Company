@@ -1,0 +1,57 @@
+.introsection-container{
+    background: url(../assets/images/intro-bg-1.jpg);
+    background-attachment: fixed;
+
+    /* height: 800px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 250px 110px 120px ;
+    /* margin-bottom: 100px; */
+}
+.introsection-container p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.introsection-container h1{
+    margin: 0 0 30px 0;
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: -2.25px;
+    line-height: 85px;
+}
+.intro-button-group{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+@media(max-width:1200px){
+    .introsection-container{
+        padding: 120px 55px;
+    }
+    .introsection-container h1{
+        font-size: 52px;
+        letter-spacing: -1.56px;
+        line-height: 65px;
+    }
+}
+@media(max-width:768px){
+    .introsection-container{
+        padding: 120px 15px;
+    }
+    .introsection-container h1{
+        font-size: 22px;
+        letter-spacing: -.96px;
+        line-height: 42px;
+    }
+    .introsection-container h1 br{
+        display: none;
+    }
+
+}
+/* .vertical-swiper{
+    height: 100vh;
+} */

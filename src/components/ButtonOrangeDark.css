@@ -1,0 +1,26 @@
+.button-orange-dark-container{
+    background-color: #fc7561;
+    width: 170px;
+    border-radius: 5px;
+}
+.button-orange-dark-container a{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 35px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    transition: all .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button-orange-dark-container:hover{
+    background-color: #000;
+}
+.button-orange-dark-container a:hover{
+   text-decoration: none;
+}

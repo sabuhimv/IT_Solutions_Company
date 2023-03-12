@@ -1,0 +1,32 @@
+.partners{
+    background: url(../assets/images/partners-bg.png);
+}
+.partners-container{
+    padding: 0 110px;
+    text-align: center;
+    padding: 60px;
+}
+.partners-header{
+    margin-bottom: 50px;
+}
+.partners-header span{
+    color: #FD4A18;
+    margin-bottom: 13px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.partners-header h2, .partners-header h2 span{
+    font-size: 42px !important;
+    color: #000;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+.partners-body{
+    background-color: #fff;
+    padding: 50px 20px;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: none;
+}

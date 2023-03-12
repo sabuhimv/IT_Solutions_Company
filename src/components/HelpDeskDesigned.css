@@ -1,0 +1,102 @@
+.help-desk-designed-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 110px 100px 0;
+}
+.help-designed-image{
+    /* max-width: 770px; */
+    max-width: 800px;
+    min-width: 530px;
+    height: 460px;
+    /* height: auto; */
+    margin-right: 30px;
+}
+.help-designed-image img{
+    width: 100%;
+}
+.help-designed-image , .help-designed-text {
+    padding: 0 25px;
+}
+.help-designed-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* position: relative; */
+}
+.help-designed-element {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 60px 20px;
+    border: 1px solid rgb(87 87 87 / 10%);
+    margin-bottom: 20px;
+    transition: all .5s ease;
+}
+.help-designed-element:hover {
+    box-shadow: 0 10px 60px 0 rgb(87 87 87 / 10%);
+    border-color: transparent;
+}
+.help-designed-element h5{
+    font-size: 21px;
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.help-designed-text h2{
+    padding-bottom: 25px;
+}
+.help-designed-element p::after{
+    position: absolute;
+    content: "\f00c";
+    font-family: Fontawesome;
+    position: absolute;
+    top: 27px;
+    left: 18px;
+    background-color: #06f;
+    border-radius: 50%;
+    transition: all .3s;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+@media(max-width:1300px){
+    .help-desk-designed-container{
+        padding: 100px 55px;
+    }
+}
+@media(max-width:1300px){
+    .help-designed-text h2 br{
+        display: none;
+    }
+}
+@media(max-width:1200px){
+    .help-desk-designed-container{
+        padding: 100px 15px;
+    }
+}
+@media(max-width:1100px){
+    .help-desk-designed-container{
+        flex-direction: column-reverse;
+    }
+    /* .help-designed-text{
+        padding-top: 230px;
+    } */
+}
+@media(max-width:768px){
+    .help-designed-image{
+        width: 300px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .help-designed-image img{
+        width: 80%;
+    }
+}

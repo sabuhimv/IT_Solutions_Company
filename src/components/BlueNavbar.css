@@ -1,0 +1,116 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86px;
+    width: 98%;
+    padding: 0 15px;
+
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+.navbar-logo{
+    cursor: pointer;
+}
+.nav-links{
+    position: relative;
+}
+.nav-links .nav-menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.nav-links .nav-menu li{
+    padding: 11px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #000;
+}
+.nav-links .nav-menu li a{
+    text-decoration: none;
+    color: #162542;
+    font-weight: 700;
+}
+.nav-links .nav-menu li:hover{
+    color: #FD4A18;
+}
+.nav-links .nav-menu li a:hover{
+    color: #FD4A18;
+}
+.nav-links .nav-menu li:nth-child(1) a::after,.nav-links .nav-menu li:nth-child(2) a::after,.nav-links .nav-menu li:nth-child(3) a::after,.nav-links .nav-menu li:nth-child(4) a::after,.nav-links .nav-menu li:nth-child(5) a::after,.nav-links .nav-menu li:nth-child(6) a::after{
+    content: "\f107";
+    font-family: Fontawesome;
+    margin-left: 5px;
+}
+
+.home-dropdown{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+}
+.home-dropdown li{
+    padding-bottom: 20px;
+}
+.home-dropdown li a {
+    color: #000;
+    background-color: #fff;
+    padding: 10px 80px 10px 10px;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+.home-dropdown li a:hover {
+    background-color: #FD4A18;
+    color: #fff;
+}
+
+
+
+/* .nav-links ul .nav-item:hover{
+    display: inline-block;
+} */
+
+
+
+.quote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quote div{
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 11px;
+}
+.quote div:nth-child(4){
+    font-size: 28px;
+    display: none;
+}
+.basket-span{
+    padding-left: 20px;
+}
+.language{
+    padding-right: 5px;
+}
+@media (max-width:1200px) {
+    .nav-links{
+        display: none;
+        padding: 0;
+    }
+    .quote div:nth-child(3){
+        display: none;
+    }
+    .quote div:nth-child(4){
+        display: inline-block;
+    }
+}
