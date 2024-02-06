@@ -1,0 +1,14 @@
+.back-to-top-button{
+    background-color: #FD4A18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.back-to-top-button:hover{
+    background-color: #000;
+}

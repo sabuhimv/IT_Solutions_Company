@@ -127,18 +127,18 @@ const Navbar = () => {
 
     const overlayMenuRef = useRef()
 
-    function openOverlayMenu(e){
-        const clickedPlace =e.target;
+    function openOverlayMenu(e) {
+        const clickedPlace = e.target;
 
-        if(clickedPlace.classList.contains('nav-search')) {
+        if (clickedPlace.classList.contains('nav-search')) {
             overlayMenuRef.current.classList.add("overlay-menu-active")
         }
     }
 
-    function closeOverlayMenu(e){
-        const clickedPlace =e.target;
+    function closeOverlayMenu(e) {
+        const clickedPlace = e.target;
 
-        if(clickedPlace.classList.contains('overlay-search')) {
+        if (clickedPlace.classList.contains('overlay-search')) {
             overlayMenuRef.current.classList.remove("overlay-menu-active")
         }
     }
@@ -394,10 +394,12 @@ const Navbar = () => {
 
                 <div className='overlay-search' ref={overlayMenuRef} onClick={closeOverlayMenu}>
                     <input type="text" className='overlay-search-input' placeholder='Search here...' />
-                    <BiSearch className='overlay-search-icon'/>
+                    <BiSearch className='overlay-search-icon' />
                     {/* <AiOutlineClose className='overlay-x' /> */}
                 </div>
             </form>
+
+
 
         </>
     )

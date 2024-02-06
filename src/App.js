@@ -47,6 +47,7 @@ import Contact from './pages/Contact';
 import BlogStandard from './pages/BlogStandard';
 import BlogDetails from './pages/BlogDetails';
 import Loader from './components/Loader';
+import BackToTop from './components/BackToTop';
 
 
 function App() {
@@ -102,6 +103,7 @@ function App() {
               <Route path='/cyber-security' element={<CyberSecurity />} />
               <Route path='*' element={<NotFoundPage />} />
             </Routes>
+            <BackToTop/>
             <SRewards />
             <Footer />
           </BrowserRouter>

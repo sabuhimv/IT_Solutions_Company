@@ -106,7 +106,12 @@
     90% { transform: translate(1px,0px) rotate(0deg); }
     100% { transform: translate(1px, 0px) rotate(-1deg); }
 } */
-@media (max-width:1300px){
+@media (max-width:1470px){
+    .popular-container{
+        padding: 130px 55px;
+    }
+}
+@media (max-width:1350px){
     .popular-container{
         flex-direction: column;
     }
