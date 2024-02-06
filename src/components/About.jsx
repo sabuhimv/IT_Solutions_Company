@@ -4,6 +4,7 @@ import AboutUs from '../assets/images/about-1.jpg'
 import Button from './Button'
 import AOS from "aos";
 
+
 const About = () => {
   useEffect(() => {
     AOS.init();
